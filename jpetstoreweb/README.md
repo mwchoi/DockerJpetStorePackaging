@@ -1,5 +1,7 @@
-MyBatis JPetStore
+OpenSourceConsting JPetStore Docker Packaing 
 =================
+
+Original Source Project 
 
 [![Build Status](https://travis-ci.org/mybatis/jpetstore-6.svg?branch=master)](https://travis-ci.org/mybatis/jpetstore-6)
 [![Coverage Status](https://coveralls.io/repos/github/mybatis/jpetstore-6/badge.svg?branch=master)](https://coveralls.io/github/mybatis/jpetstore-6?branch=master)
@@ -66,7 +68,6 @@ Running JPetStore sample under Tomcat (using the [cargo-maven2-plugin](https://c
 - Run application in browser http://localhost:8080/jpetstore/ 
 - Press Ctrl-C to stop the server.
 
-
 ## Try integration tests
 
 Perform integration tests for screen transition.
@@ -78,8 +79,3 @@ Perform integration tests for screen transition.
 
 ```
 $ ./mvnw test -P itest
-```
-
-> Known issues:
->
-> * [Two tests are failed on The WebSphere Liberty](https://github.com/mybatis/jpetstore-6/issues/159).
